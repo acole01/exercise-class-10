@@ -37,9 +37,9 @@
 			<div class="content">
 				<div class="flexslider">
 					<ul class="slides">
-						<li><img src="http://lorempixel.com/500/500" alt=""></li>
-						<li><img src="http://lorempixel.com/500/500" alt=""></li>
-						<li><img src="http://lorempixel.com/500/500" alt=""></li>
+						<li><img src="http://lorempixel.com/500/500/cats" alt=""></li>
+						<li><img src="http://lorempixel.com/500/500/sports" alt=""></li>
+						<li><img src="http://lorempixel.com/500/500/" alt=""></li>
 						<li><img src="http://lorempixel.com/500/500" alt=""></li>
 						<li><img src="http://lorempixel.com/500/500" alt=""></li>
 					</ul>
@@ -52,5 +52,12 @@
 
         <!-- Load jQuery Plugins Here -->
 		<script src="js/vendor/jquery.flexslider-min.js"></script>
+		<script>
+			$(function(){
+				$('.flexslider').flexslider({
+					animation: 'slide',
+				});
+			});
+		</script>
     </body>
 </html>

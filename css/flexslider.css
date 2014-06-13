@@ -23,6 +23,7 @@
 /* Icon Fonts
 *********************************/
 /* Font-face Icons */
+/* as fonts so they scale well */
 @font-face {
 	font-family: 'flexslider-icon';
 	src:url('fonts/flexslider-icon.eot');
